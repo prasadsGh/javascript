@@ -23,13 +23,13 @@ console.log(integer);
 
 */
 
-
+// person object 
 let person={
     name:"Prasad",
     dob:"23/09/2002"
 
 }
-
+console.log(typeof person);
 person.name="prasad patil"
 
 console.log(person)
@@ -46,3 +46,8 @@ selectcolors[5]='blue';
 console.log(selectcolors[5]);
 
 console.log(selectcolors.length);
+
+
+// let age = prompt("enter your age");
+// if(age>=18) alert("you are an adult now :(");
+// else alert("your are not adult , Go enjoy your life");
